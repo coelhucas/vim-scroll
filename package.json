@@ -1,6 +1,6 @@
 {
   "name": "@coelhucas/vim-scroll",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component that provides vertical scrolling by J and K keys.",
   "private": false,
   "author": "Lucas Coelho",
