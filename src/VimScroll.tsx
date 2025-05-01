@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { ReactNode, useEffect } from "react";
 
 let startedJAt = 0;
 let startedKAt = 0;
@@ -13,7 +13,7 @@ const VimScroll = ({
   cooldown?: number;
   scrollBy?: number;
   ignoreOn?: string[];
-}) => {
+}): ReactNode => {
   useEffect(() => {
     const onKeyPressed = (evt: KeyboardEvent) => {
       if (evt.key === "j") {
