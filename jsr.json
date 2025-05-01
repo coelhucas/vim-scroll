@@ -2,5 +2,8 @@
   "name": "@coelhucas/vim-scroll",
   "version": "1.0.0",
   "license": "MIT",
-  "exports": "./src/index.ts"
+  "exports": "./src/index.ts",
+  "publish": {
+    "include": ["LICENSE", "README.md", "src/**/*.ts"]
+  }
 }
