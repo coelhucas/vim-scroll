@@ -1,4 +1,4 @@
-# <VimScroll />
+# `<VimScroll />`
 
 This component has the sole purpose of adding a simple vertical scroll behavior from <kbd>J</kbd> and <kbd>K</kbd> keys. The component checks for active inputs in order to not disturb user experience while the person is typing something, for instance.
 
